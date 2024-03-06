@@ -23,3 +23,14 @@ DATA_VAIDATION_DIR_NAME = "data_validation"
 DATA_VALIDATION_STATUS_FILE = "status.txt"
 
 DATA_VALIDATION_ALL_REQUIRED_FILES = ["train", "valid", "test", "data.yaml"]
+
+
+"""
+Model Training related Constants
+"""
+
+MODEL_TRAINER_DIR_NAME = "model_trainer"
+
+MODEL_TRAINER_PRETRAINED_WEIGHT_NAME = "yolov8s-seg.pt"
+
+MODEL_TRAINER_EPOCHS_NO = 1
